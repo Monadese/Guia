@@ -1,0 +1,44 @@
+body {
+  background-image: url('fondo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+.popup-image{
+   height: 200px;
+   width: 200px;
+   position: relative;
+   left: 40px;
+}
+h4{
+  font-family: 'Times New Roman', serif;
+  position: relative;
+  top: 10px;
+}
+
+.image-container {
+  
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  
+}
+.caja{
+  position: relative;
+  top: 40px;
+  background-color: black;
+  border-radius: 30px;
+  border-width: 30px;
+  border-image: linear-gradient(to bottom right, #14b5d9, #0bd759) 1;
+}
+#map {
+  height: 450px;
+  width: 750px;
+}
+
+.head{
+  background-color: aquamarine;
+  margin: 0;
+  padding: 0;
+}
