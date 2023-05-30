@@ -1,5 +1,5 @@
 body {
-  background-image: url('fondo.jpg');
+  
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -33,8 +33,8 @@ h4{
   border-image: linear-gradient(to bottom right, #14b5d9, #0bd759) 1;
 }
 #map {
-  height: 450px;
-  width: 750px;
+  height: 550px;
+  width: 900px;
 }
 
 .head{
