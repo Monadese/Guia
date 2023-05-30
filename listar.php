@@ -24,7 +24,6 @@ $conn->close();
 
 // Codificar los datos en formato JSON
 $jsonData = json_encode($data);
-echo json_encode($data);
 // Imprimir los datos JSON
 header('Content-Type: application/json');
 echo $jsonData;
