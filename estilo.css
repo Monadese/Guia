@@ -1,9 +1,28 @@
-body {
-  
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+body, html {
+  margin: 0;
+  padding: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+}
 
+#map {
+  height: 90vh;
+  width: 100%;
+  position: relative;
+}
+
+.legend {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 5px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  border-radius: 5px;
+  z-index: 999;
 }
 .popup-image{
    height: 200px;
@@ -24,21 +43,8 @@ h4{
   height: 100%;
   
 }
-.caja{
-  position: relative;
-  top: 40px;
-  background-color: black;
-  border-radius: 30px;
-  border-width: 30px;
-  border-image: linear-gradient(to bottom right, #14b5d9, #0bd759) 1;
-}
-#map {
-  height: 550px;
-  width: 900px;
-}
 
-.head{
-  background-color: aquamarine;
-  margin: 0;
-  padding: 0;
+.have{
+  
+  background: linear-gradient(to right, #ff0000, #0000ff);
 }

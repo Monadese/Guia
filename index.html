@@ -4,19 +4,21 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Guia</title>
+   <title>Mapa</title>
    <link rel="stylesheet" href="leaflet/leaflet.css" />
    <script src="leaflet/leaflet.js"></script>
    <link rel="stylesheet" href="estilo.css">
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
-   
-    <div id="map" class="container d-flex justify-content-center"></div>
-    <div class="container d-flex justify-content-center ">
-        <div id="output" class="col-sm-4 caja text-white text-center p-3"></div>
+    <div class="container-fluid have">
+        <div class="row justify-content-between gradient-bg">
+            <div id="output" class="col-md-5 col-lg-4 text-white pb-3"></div>
+            <div class="col-md d-flex justify-content-center align-items-center text-white"><h2>MAPA</h2></div>
+        </div>
     </div>
-
+    <div id="map" class="container-fluid"></div>
+    
 <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
 <script src="script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
